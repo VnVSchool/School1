@@ -54,11 +54,17 @@
 # print(file.read())
 # file.close()
 
-def suma(x, y=5):
-    return x + y
+# def suma(x, y=5):
+#     return x + y
+#
+#
+# first_number = int(input("Hello"))
+# abc = suma(first_number, 10)
+#
+# print(abc)
 
-
-first_number = int(input("Hello"))
-abc = suma(first_number, 10)
-
-print(abc)
+# a = [1, 2, 3, 4, 5, 6, 7]
+# b = a[2:4:]
+# print(b)
+stb = "hello world"
+print(stb[4:])

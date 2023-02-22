@@ -2,7 +2,11 @@ from utils.helpers import write_new_human, get_all_humans
 
 while True:
     print("1. Add new person! \n2. Get all persons!)")
-    flag = int(input("Choose what you want to do: "))
+    try:
+        flag = int(input("Choose what you want to do: "))
+    except ValueError:
+        print("E")
+        continue
     if flag == 1:
         first_name = input("First Name: ")
         last_name = input("Last Name: ")
