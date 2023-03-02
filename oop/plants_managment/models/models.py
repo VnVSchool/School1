@@ -1,12 +1,22 @@
 import json
+from framework.models import Model
 
 
-class Plant:
+class Plant(Model):
     file = "database/plants.json"
+    fields = ["name", "address"]
 
-    def __init__(self, name, address):
+    def __init__(self, name, address, id=None):
         self.name = name
         self.address = address
+        self.id = id
+
+    @classmethod
+    def get_el_by_id(cls, id):
+        data = cls.get_file_data()
+        for el in data:
+            if el["id"] == id:
+                return cls(el["name"], el["address"], id=el["id"])
 
     def generate_dict(self):
         return {
@@ -14,38 +24,16 @@ class Plant:
             "address": self.address
         }
 
-    def save(self):
-        self.get_all_plants()
-        file = open(self.file, "r")
-        plants = json.loads(file.read())
-        file.close()
-        file = open(self.file, "w")
-        plant = self.generate_dict()
-        if len(plants) > 1:
-            plant["id"] = len(plants) + 1
-        else:
-            plant["id"] = 1
-        plants.append(plant)
-        file.write(json.dumps(plants))
-        file.close()
 
-    @classmethod
-    def get_all_plants(cls):
-        file = open(cls.file, "r")
-        plants = json.loads(file.read())
-        file.close()
-        for plant in plants:
-            print(plant["name"])
-            print(plant["address"])
-
-
-class Employee:
+class Employee(Model):
     file = "database/employees.json"
+    fields = ["name", "email", "plant_id"]
 
-    def __init__(self, name, email, plant_id):
+    def __init__(self, name, email, plant_id, id=None):
         self.name = name
         self.email = email
         self.plant_id = plant_id
+        self.id = id
 
     def generate_dict(self):
         return {
@@ -54,26 +42,9 @@ class Employee:
             "plant_id": self.plant_id
         }
 
-    def save(self):
-        file = open(self.file, "r")
-        employees = json.loads(file.read())
-        file.close()
-        file = open(self.file, "w")
-        employee = self.generate_dict()
-        if len(employees) > 1:
-            employee["id"] = len(employees) + 1
-        else:
-            employee["id"] = 1
-        employees.append(employee)
-        file.write(json.dumps(employees))
-        file.close()
-
     @classmethod
-    def get_all_employees(cls):
-        file = open(cls.file, "r")
-        employees = json.loads(file.read())
-        file.close()
-        for employee in employees:
-            print(employee["name"])
-            print(employee["email"])
-            print(employee["plant_id"])
+    def get_el_by_id(cls, id):
+        data = cls.get_file_data()
+        for el in data:
+            if el["id"] == id:
+                return cls(el["name"], el["email"], el["plant_id"], id=el["id"])
