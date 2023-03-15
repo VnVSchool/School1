@@ -1,0 +1,252 @@
+ 1608  cd ..
+ 1609  ls
+ 1610  cd /
+ 1611  ls
+ 1612  cd opt
+ 1613  ls
+ 1614  cd Upwork/
+ 1615  ls
+ 1616  cd ..
+ 1617  ls
+ 1618  cd google/
+ 1619  ls
+ 1620  cd chrome/
+ 1621  ls
+ 1622  cd /
+ 1623  ls
+ 1624  cd bin
+ 1625  ls
+ 1626  cd ..
+ 1627  ls
+ 1628  cd usr/
+ 1629  ls
+ 1630  cd ..
+ 1631  ls
+ 1632  cd /root
+ 1633  ls
+ 1634  cd
+ 1635  pwd
+ 1636  cd
+ 1637  ls
+ 1638  sudo apt install htop
+ 1639  htop
+ 1640  sudo su
+ 1641  ls
+ 1642  sudo apt remove htop
+ 1643  ls
+ 1644  sudo apt install htop
+ 1645  ls
+ 1646  ls -l
+ 1647  cd /
+ 1648  ls -l
+ 1649  cd
+ 1650  ls
+ 1651  ls -l
+ 1652  chmod -R 775
+ 1653  chmod -R 775 lesson-linux/
+ 1654  ls -l
+ 1655  chmod -R 773 lesson-linux/
+ 1656  ls -l
+ 1657  chmod -R 772 lesson-linux/
+ 1658  ls -l
+ 1659  chmod -R 771 lesson-linux/
+ 1660  ls -l
+ 1661  chmod -R 773 lesson-linux/
+ 1662  chmod -R 774 lesson-linux/
+ 1663  ls -l
+ 1664  chmod -R rwxrwxrwx lesson-linux/
+ 1665  chmod -R +rwxrwxrwx lesson-linux/
+ 1666  ls -l
+ 1667  4 - read
+ 1668  2 - write
+ 1669  1 - write
+ 1670  ls
+ 1671  chown -R root:root lesson-linux/
+ 1672  sudo chown -R root:root lesson-linux/
+ 1673  ls -l
+ 1674  sudo chown -R root:dev lesson-linux/
+ 1675  ls -l
+ 1676  ls
+ 1677  cat index.html
+ 1678  cd lesson-linux/
+ 1679  ls
+ 1680  ls -l
+ 1681  rm -rf linux-l
+ 1682  rm -r linux-l
+ 1683  ls
+ 1684  touch linux
+ 1685  nano linux
+ 1686  cat linux
+ 1687  ls
+ 1688  du -sh
+ 1689  touch linux2
+ 1690  nano linux2
+ 1691  touch linux2
+ 1692  ls
+ 1693  cat linux2
+ 1694  du -sh
+ 1695  df -h
+ 1696  sudo apt install htop
+ 1697  top
+ 1698  htop
+ 1699  git
+ 1700  ls
+ 1701  ді
+ 1702  ls
+ 1703  touch history
+ 1704  history
+ 1705  nano history
+ 1706  git init
+ 1707  mkdir lectures/linux
+ 1708  mkdir -r lectures/linux
+ 1709  mkdir -r lectures/
+ 1710  mkdir lectures/
+ 1711  mkdir lectures/linux
+ 1712  mv history lectures/linux/
+ 1713  ls
+ 1714  git add .
+ 1715  sudo chmod -R 0777 *
+ 1716  cd ..
+ 1717  sudo chown -R dev:dev lesson-linux/
+ 1718  cd lesson-linux/
+ 1719  ls
+ 1720  git add .
+ 1721  git commit -m "first commit"
+ 1722  git remote add origin https://github.com/Cursoreducation/Python-Titans-group.git
+ 1723  git push
+ 1724  git push origin master
+ 1725  ssh root@47ms.l.time4vps.cloud
+ 1726  clear
+ 1727  python3 first.py
+ 1728  cd red-Arrow/
+ 1729  ls
+ 1730  python3 main.py
+ 1731  sudo docker-compose -f docker-compose.local.yml up
+ 1732  sudo docker-compose -f docker-compose.local.yml exec php-fpm bash
+ 1733  pwd
+ 1734  ls
+ 1735  cd /
+ 1736  ls
+ 1737  cd etc
+ 1738  ls
+ 1739  cd apache2/
+ 1740  ls
+ 1741  cd /
+ 1742  ls
+ 1743  cd bin
+ 1744  ks
+ 1745  ls
+ 1746  cd ..
+ 1747  ls
+ 1748  cd usr/
+ 1749  ls
+ 1750  cd bin/
+ 1751  ls
+ 1752  cat python
+ 1753  ls
+ 1754  cat python3
+ 1755  ls
+ 1756  cd /
+ 1757  ls
+ 1758  cd boot/
+ 1759  ls
+ 1760  cd ..
+ 1761  ls
+ 1762  cd opt/
+ 1763  ls
+ 1764  cd google/
+ 1765  ls
+ 1766  cd ..
+ 1767  ls
+ 1768  ls
+ 1769  cd tmp/
+ 1770  ls
+ 1771  cd ..
+ 1772  ls
+ 1773  cd var
+ 1774  ls
+ 1775  cd log
+ 1776  ls
+ 1777  cat lastlog
+ 1778  ls
+ 1779  cat kern.log
+ 1780  cd ..
+ 1781  ls
+ 1782  cd cache/
+ 1783  ls
+ 1784  cd ..
+ 1785  ls
+ 1786  cd ..
+ 1787  ls
+ 1788  cd root/
+ 1789  ls
+ 1790  cd home
+ 1791  ls
+ 1792  cd dev
+ 1793  ls
+ 1794  rm -r lection-linux/
+ 1795  ls
+ 1796  cd lesson-linux/
+ 1797  ls
+ 1798  cd ..
+ 1799*
+ 1800  ls
+ 1801  mkdir lesson-linux
+ 1802  ls
+ 1803  cd lesson-linux/
+ 1804  ls
+ 1805  touch hello
+ 1806  nano hello
+ 1807  cd ..
+ 1808  ls
+ 1809  ./ngrok
+ 1810  cat ngrok
+ 1811  cd lesson-linux/
+ 1812  ls
+ 1813  cat hello
+ 1814  sudo cat hello
+ 1815  apt-get
+ 1816  sudo apt-get install htop
+ 1817  sudo apt remove htop
+ 1818  sudo apt remove --purge htop
+ 1819  sudo apt install htop
+ 1820  htop
+ 1821  sudo apt update
+ 1822  sudo apt list htop
+ 1823  sudo apt list
+ 1824  sudo apt list ht
+ 1825  sudo apt list htop
+ 1826  sudo apt search
+ 1827  sudo apt search hto
+ 1828  sudo apt list htop
+ 1829  sudo apt list
+ 1830  cd ..
+ 1831  ls -l
+ 1832  ls
+ 1833  ls -l
+ 1834* sudo chmod +x '2022-09-27 21-35-30.mkv
+ 1835  ls -l
+ 1836  4 - read
+ 1837  2
+ 1838  2 - write
+ 1839  1 - execute
+ 1840  7 - rwx
+ 1841  5 - r-x
+ 1842  6 - rw
+ 1843  3 - wx
+ 1844  sudo chmod 777 '2022-09-27 21-35-30.mkv'
+ 1845  ls -l
+ 1846  sudo chmod -R 777 lesson-linux/
+ 1847  ls -l
+ 1848  cd lesson-linux/
+ 1849  ls -l
+ 1850  cd ..
+ 1851  sudo chmod -R 775 lesson-linux/
+ 1852  ls -l
+ 1853  cd lesson-linux/
+ 1854  ls -l
+ 1855  cd ..
+ 1856  sudo chown -R root:root lesson-linux/
+ 1857  ls -l
+ 1858  cat /etc/passwd
+ 1859  history
