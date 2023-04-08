@@ -6,7 +6,6 @@ class Article(db.Model):
     title = db.Column(db.String(255), nullable=False)
     body = db.Column(db.Text, nullable=False)
 
-
     @property
     def serialize(self):
         return {
